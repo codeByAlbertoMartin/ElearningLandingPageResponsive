@@ -1,5 +1,7 @@
+@use '../abstracts/variables' as v;
+
 html * {
-    font-family: $primary-font;
+    font-family:v.$primary-font;
 }
  
 body {
