@@ -4,12 +4,42 @@
   box-sizing: border-box;
 }
 
+.button {
+  display: inline-block;
+  padding: 16px 24px;
+  color: white;
+  background-color: #13183F;
+  text-decoration: none;
+  border-radius: 28px;
+}
+
+header.header-principal {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+header.header-principal .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header.header-principal ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.container {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
 html * {
   font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 body {
   overflow-x: hidden;
+  font-size: 16px;
 }
 
 /*# sourceMappingURL=style.css.map */
