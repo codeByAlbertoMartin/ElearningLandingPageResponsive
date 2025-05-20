@@ -49,9 +49,43 @@
 }
 .hero__img {
   text-align: center;
+  position: relative;
 }
 .hero__img img {
   max-width: 80%;
+}
+.hero__number {
+  display: inline-block;
+  background-color: white;
+  color: #13183F;
+  padding: 5px;
+  text-align: left;
+  position: absolute;
+  border-radius: 20px;
+  box-shadow: 0 5px 1rem #ccc;
+  margin: 20px;
+}
+.hero__number span {
+  display: block;
+}
+.hero__number-title {
+  font-size: 14px;
+  color: #83869A;
+}
+.hero__number-number {
+  font-size: 32px;
+  color: #13183F;
+  font-weight: 700;
+}
+.hero__number-1 {
+  padding: 16px 20px 16px 20px;
+  bottom: 0;
+  left: 0;
+}
+.hero__number-2 {
+  padding: 16px 45px 16px 20px;
+  top: 0px;
+  right: 0px;
 }
 
 header.header-principal {
