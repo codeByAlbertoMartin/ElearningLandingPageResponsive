@@ -1,0 +1,25 @@
+@use "../abstracts/variables" as v;
+.hero{
+    &__title{
+        margin-bottom: 26px;
+        font-size:40px;
+        font-weight: 700;
+        line-height: 51px;
+    }
+    &__subtitle{
+        margin-bottom: 26px;
+        color: v.$grey;
+        line-height: 21px;
+    }
+    &__buttons{
+        margin-bottom: 40px;
+    }
+    &__img{
+        text-align: center;
+        img{
+            max-width: 80%;
+        }
+
+    }
+    
+}
