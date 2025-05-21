@@ -33,6 +33,12 @@
             width:50%;
             margin:0
         }
+        @include m.breakpoint(tablet){
+            width:500px;
+        }
+        @include m.breakpoint(desktop){
+            width:400px;
+        }
 
     }
     &__number{
@@ -67,6 +73,11 @@
                 bottom:-90px;
         
             }
+            @include m.breakpoint(desktop){
+                left: 50px;
+                bottom:-110px;
+        
+            }
             padding: 16px 20px 16px 20px;
             bottom:0;
             left:0;
@@ -80,7 +91,10 @@
             @include m.breakpoint(tablethorizontal){
                 top: -33px;
                 right: 0;
-        
+            }
+            @include m.breakpoint(desktop){
+                top: 0px;
+                right: 0;
             }
             padding: 16px 45px 16px 20px;
             top:0px;
@@ -91,6 +105,12 @@
         @include m.breakpoint(tablet){
             display:flex;
             justify-content: space-between;
+
+        }
+        @include m.breakpoint(desktop){
+            display:flex;
+            justify-content: space-between;
+            gap:20px;
 
         }
     } 
@@ -106,6 +126,9 @@
         }
         @include m.breakpoint(tablethorizontal){
             width:40%;
+        }
+        @include m.breakpoint(desktop){
+            max-width:450px;
         }
     }
     
