@@ -11,3 +11,7 @@
 .button--pink-orange{
     @include m.button--pink-orange();
 }
+
+.button-link{
+    @include m.button-link();
+}

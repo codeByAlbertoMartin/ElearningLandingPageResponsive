@@ -33,6 +33,16 @@
   background-image: linear-gradient(180deg, #FF6F48 0.04%, #F02AA6 100%);
 }
 
+.button-link {
+  color: #F74780;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.hero {
+  margin-bottom: 60px;
+}
 .hero__title {
   margin-bottom: 26px;
   font-size: 40px;
@@ -88,6 +98,50 @@
   right: 0px;
 }
 
+.activities {
+  margin-bottom: 30px;
+}
+.activities__header {
+  background-image: linear-gradient(180deg, #FF6F48 0.04%, #F02AA6 100%);
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+.activities__header h2 {
+  padding: 28px 24px 29px 32px;
+  color: white;
+}
+.activities__item {
+  background-color: white;
+  border-radius: 10px;
+  padding: 56px 28px 40px;
+  margin-bottom: 40px;
+  position: relative;
+}
+.activities__item-icon {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(180deg, #FF6F48 0.04%, #F02AA6 100%);
+  border-radius: 50%;
+  margin-bottom: 20px;
+  position: absolute;
+  top: -25px;
+  left: 20px;
+}
+.activities__item-title {
+  color: #13183F;
+  font-size: 20px;
+  margin-bottom: 26px;
+}
+.activities__item-description {
+  color: #83869A;
+  line-height: 24px;
+  margin-bottom: 26px;
+  font-size: 16px;
+  font-weight: 300;
+}
 header.header-principal {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -107,6 +161,10 @@ header.header-principal ul {
 .container {
   padding-left: 16px;
   padding-right: 16px;
+}
+
+main {
+  background-image: linear-gradient(180deg, #FFF 0%, #F0F1FF 100%);
 }
 
 html * {
