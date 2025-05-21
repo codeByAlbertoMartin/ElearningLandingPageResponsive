@@ -13,7 +13,7 @@
             grid-template-columns: 1fr 1fr;
             gap: 40px 30px;    
         }
-        @include m.breakpoint(tablet){
+        @include m.breakpoint(tablethorizontal){
             grid-template-columns: 1fr 1fr 1fr;
               
         }

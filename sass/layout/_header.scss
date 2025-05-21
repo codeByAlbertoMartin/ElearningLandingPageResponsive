@@ -15,4 +15,7 @@ header.header-principal{
     @include m.breakpoint(tablethorizontal){
         margin-bottom: 80px;
     }
+    @include m.breakpoint(tablethorizontal){
+        margin-bottom: 20px;
+    }
 }
