@@ -1,0 +1,19 @@
+@use "../abstracts/mixins" as m;
+@use "../abstracts/variables" as v;
+
+footer.footer-principal{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: v.$black;
+    .container{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    ul{
+        @include m.reset-list();
+    }
+    .button{
+        background-image: v.$gradient-pink-blue;
+    }
+}

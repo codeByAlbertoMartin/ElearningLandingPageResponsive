@@ -1,3 +1,5 @@
+@use "variables" as v;
+
 @mixin breakpoint($point) {
   @if $point == largedesktop {
     @media (max-width: 1920px) and (min-width: 1441px) {
@@ -37,4 +39,36 @@
       @content;
     }
   }
+}
+
+@mixin reset-list(){
+  margin:0px;
+  padding: 0px;
+  list-style: none;
+}
+
+@mixin button($bg-color: v.$black, $color: white){
+  display: inline-block;
+  padding: 16px 24px;
+  color:$color;
+  background-color: $bg-color;
+  text-decoration: none;
+  border-radius: 28px;
+}
+ 
+@mixin button--pink-orange(){
+  @include button();
+  background-image: v.$gradint-pink-orange;
+}
+
+@mixin button--pink-blue(){
+  @include button();
+  background-image: v.$gradient-pink-blue;
+}
+
+@mixin button-link(){
+  color: v.$pink;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 16px;
 }

@@ -1,0 +1,17 @@
+@use "../abstracts/mixins" as m;
+
+.button{
+    @include m.button();
+}
+
+.button--pink-blue{
+    @include m.button--pink-blue();
+}
+
+.button--pink-orange{
+    @include m.button--pink-orange();
+}
+
+.button-link{
+    @include m.button-link();
+}
