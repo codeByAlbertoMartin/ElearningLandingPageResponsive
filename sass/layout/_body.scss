@@ -1,0 +1,13 @@
+@use "../abstracts/mixins" as m;
+
+body{
+    @include m.breakpoint(tablet){
+        background-image: url("../img/hero-img.png");
+        background-repeat: no-repeat;
+        background-position: 115% 0;
+        background-size: 400px;
+        margin-left:80px;
+        margin-right:80px;
+
+    }
+}
