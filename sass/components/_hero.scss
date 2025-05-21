@@ -1,5 +1,7 @@
 @use "../abstracts/variables" as v;
+@use "../abstracts/mixins" as m;
 .hero{
+       
     margin-bottom: 60px;
     &__title{
         margin-bottom: 26px;
@@ -56,5 +58,23 @@
             right:0px;
         }
     }
+    .container{
+        @include m.breakpoint(tablet){
+            display:flex;
+        }
+    } 
+    &__img-tablet{
+        display:none;
+        @include m.breakpoint(tablet){
+            display:block;
+        }
+    }
+
+    &__img-mobile{
+        @include m.breakpoint(tablet){
+            display:none;
+        }
+    }
+    
     
 }
