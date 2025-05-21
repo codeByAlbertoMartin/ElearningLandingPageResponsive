@@ -12,4 +12,7 @@ header.header-principal{
     ul{
         @include m.reset-list();
     }
+    @include m.breakpoint(tablethorizontal){
+        margin-bottom: 80px;
+    }
 }

@@ -6,8 +6,9 @@ body{
         background-repeat: no-repeat;
         background-position: 115% 0;
         background-size: 400px;
-        margin-left:80px;
-        margin-right:80px;
-
+    }
+    @include m.breakpoint(tablethorizontal){
+        background-position: 100% 0;
+        background-size: 500px;
     }
 }

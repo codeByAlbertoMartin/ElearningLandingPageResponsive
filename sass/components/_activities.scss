@@ -11,8 +11,11 @@
         @include m.breakpoint(tablet){
             display:grid;
             grid-template-columns: 1fr 1fr;
-            gap: 40px 30px;
-    
+            gap: 40px 30px;    
+        }
+        @include m.breakpoint(tablet){
+            grid-template-columns: 1fr 1fr 1fr;
+              
         }
     }
     &__header{
